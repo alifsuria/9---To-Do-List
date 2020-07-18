@@ -1,0 +1,32 @@
+body{
+    background: #F5F5F5
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.item-icon{
+    margin: 0px 10px;
+}
+
+.feedback{
+    display: none;
+    background: lightpink;
+}
+
+.show{
+    display: block;
+}
+
+.visibility {
+    opacity: 0.5;
+}
+
+.complete{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
