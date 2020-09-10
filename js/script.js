@@ -5,7 +5,7 @@
   const feedback = document.querySelector(".feedback");
   const clearItem = document.querySelector(".clear-item");
 
-  let ToDoList = [];
+  // let ToDoList = [];
 
   const validate = function() {
     var p = document.createElement("p");
@@ -20,7 +20,7 @@
 
   const ItemHandler = function(itemName){
     const items = document.querySelectorAll(".item");
-
+  console.log(items)
     items.forEach(function(item){
       if(item.querySelector(".item-name").textContent === itemName){
         //complete icon event listener
